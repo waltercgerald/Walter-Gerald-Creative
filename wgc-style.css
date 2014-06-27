@@ -1,0 +1,184 @@
+@font-face{
+
+font-family:"Quicksand-BoldItalic.otf";
+ src:url(Quicksand-BoldItalic.otf);
+
+}
+@font-face{
+
+font-family:"Quicksand_Dash.otf";
+ src:url(Quicksand_Dash.otf);
+
+}
+@font-face{
+
+font-family:"Quicksand-Bold.otf";
+ src:url(Quicksand-Bold.otf);
+
+}
+@font-face{
+
+font-family:"Quicksand-Regular.otf";
+ src:url(Quicksand-Regular.otf);
+
+}
+@font-face{
+
+font-family:"GearedSlab-Bold.ttf";
+ src:url(GearedSlab-Bold.ttf);
+
+}
+/* GLOBALS */
+
+* {
+    margin:0;
+    padding:0;
+}
+a {
+    text-decoration:none;
+}
+li {
+    list-style-type:none;
+}
+/* NAV */
+body{
+    background-image:url(photo2.JPG);
+    overflow:auto;
+    max-width:100%;
+}
+
+.coverimg{
+    /* background-image:url(photo2.JPG); */
+
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+
+    background-size: cover;
+}
+
+.hidetext{
+    display:none;
+}
+
+
+
+nav {
+    border-bottom:.3em solid white;
+    text-align:center;
+    font-family:"GearedSlab-Bold.ttf";
+    margin-bottom:.3em;
+    opacity:.8;
+    padding-top:1em;
+
+}
+nav a {
+    font-size:4em;
+    color:white;
+}
+nav a:hover{
+    color:black;
+    opacity:1;
+    text-decoration:none;
+}
+
+/* WRAPPER */
+.rest{
+    /* background-image:url(photo2.JPG); */
+
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+
+}
+
+#re-think{
+    border-top:.2em solid white;
+    border-bottom:.2em solid white;
+
+
+}
+.about-section p{
+    font-family:"gearedSlab-Bold.ttf";
+    font-size: 2em;
+    line-height:1em;
+}
+
+.wrapper p{
+    margin-bottom:3em;
+}
+
+#clients{
+    margin-top:5em;
+}
+
+.wrapper {
+    /* border:.3em solid white;
+     */
+    margin-left:.5em;
+    margin-right:.5em;
+    padding-top:3em;
+    opacity:.8
+}
+
+.muir{
+    font-family:"GearedSlab-Bold.ttf";
+    opacity:.8;
+    color:white;
+    font-size: 4em;
+    /* padding-left:4em;
+    padding-right:4em; */
+    line-height: 1em;
+    border-left:none;
+
+}
+/* SVG CONTAINER */
+
+.svgcontainer {}
+/* ABOUT */
+
+h2 {
+    font-family:"Quicksand-Regular.otf";
+    font-size:3em;
+    color:white;
+    /* border-top:.05em solid black; */
+}
+p{
+    color:white;
+}
+.about-section img {
+    padding-top:1em;
+
+}
+.about-section p {
+    padding-left:2em;
+    padding-right:2em;
+}
+/* CONTACT */
+
+
+/* FOOTER */
+
+footer {
+    border-top:.1em solid white;
+    font-family:"Quicksand_Dash.otf";
+    color:white;
+    opacity:.9;
+
+}
+footer ul{
+    padding-top:1em;
+}
+/* @media only screen and (max-width: 600px) {
+    nav{display:block;}
+    nav li{display:block;}
+}
+     */
